@@ -1,6 +1,6 @@
 //const prezzo fisso km
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("click", function () {
     const button = document.getElementById("calcola");
     button.addEventListener("click", function () {
         const km = parseFloat(document.getElementById("km").value);
